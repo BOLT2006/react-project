@@ -1,155 +1,163 @@
-// --- 1. DATA (Simulates products.js) ---
+
 export const initialProducts = [
-  // Realistic Image URLs for Phone (Dark)
   {
     id: 101,
-    name: "MackBook Air - M4 Black",
+    name: "MacBook Air M4 Midnight",
     price: 119990,
-    image: "https://m.media-amazon.com/images/I/71CjP9jmqZL._SL1500_.jpg",
+    image:
+      "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800&q=80",
     description:
-      "The ultimate smartphone experience with a 108MP camera and all-day battery life.",
+      "Powerful and lightweight laptop for coding, productivity, and everyday use.",
     category: "Laptop",
   },
-  // Realistic Image URLs for Laptop (Silver)
   {
     id: 102,
-    name: "MackBook Air - M4 Golden",
+    name: "MacBook Air Silver",
     price: 119990,
-    image: "https://m.media-amazon.com/images/I/71XIkqkx+KL._SL1500_.jpg",
+    image:
+      "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800&q=80",
     description:
-      "Powerful and portable, featuring a 14-inch edge-to-edge display and latest CPU.",
+      "A portable laptop with a sleek design for work, study, and entertainment.",
     category: "Laptop",
   },
-  // Realistic Image URLs for Tablet (with stylus)
   {
     id: 103,
-    name: "iphone 17 pro max",
+    name: "iPhone 17 Pro Max",
     price: 79990,
-    image: "https://m.media-amazon.com/images/I/618vU2qKXQL._SL1500_.jpg",
+    image:
+      "https://rukminim2.flixcart.com/image/767/767/xif0q/mobile/s/7/j/-original-imahrf2fmwuyuywh.jpeg?q=90",
     description:
-      "Vibrant 10-inch display for media consumption and light productivity tasks.",
+      "A modern smartphone with a premium design and powerful camera features.",
     category: "Phone",
   },
-  // Realistic Image URLs for Camera (Mirrorless)
   {
-    id: 401,
-    name: "iphone 17 air Silver",
+    id: 104,
+    name: "iPhone Air Silver",
     price: 95490,
-    image: "https://m.media-amazon.com/images/I/61SKi94cImL._SL1500_.jpg",
+    image:
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&q=80",
     description:
-      "Capture stunning photos and 4K videos with professional-grade performance.",
+      "A stylish smartphone designed for daily communication and entertainment.",
     category: "Phone",
   },
-  // Realistic Image URLs for Phone (Light/Older Model)
   {
-    id: 501,
-    name: "iphone 17 pro max Gold",
+    id: 105,
+    name: "iPhone Pro Gold",
     price: 79990,
-    image: "https://m.media-amazon.com/images/I/71JGCn1z1TL._SL1500_.jpg",
+    image:
+      "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?w=800&q=80",
     description:
-      "An affordable, feature-packed phone with a secure biometric sensor.",
+      "Enjoy a premium smartphone experience with a modern look and feel.",
     category: "Phone",
   },
-  // Realistic Image URLs for Laptop (Chromebook)
   {
-  id: 609,
-  name: "HP Pavilion Plus, Intel Core i5-1335U-13th Gen Laptop, (16GB LPDDR5x,512GB SSD),IPS",
-  price: 69990,
-  image: "https://m.media-amazon.com/images/I/61s8J1vGi0L._SL1500_.jpg",
-  description:
-    "The ultimate smartphone experience with a 108MP camera and all-day battery life.",
-  category: "Laptop",
-},
+    id: 106,
+    name: "HP Pavilion Plus",
+    price: 69990,
+    image:
+      "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=800&q=80",
+    description:
+      "A versatile laptop for programming, multitasking, and college projects.",
+    category: "Laptop",
+  },
   {
-    id: 601,
-    name: "iphone 17 air White",
+    id: 107,
+    name: "iPhone Air White",
     price: 95490,
-    image: "https://m.media-amazon.com/images/I/61Ce-6B6x+L._SL1500_.jpg",
+    image:
+      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=800&q=80",
     description:
-      "Lightweight and fast, perfect for students and cloud-based work.",
+      "A clean and elegant smartphone design for everyday use.",
     category: "Phone",
   },
-    {
-    id: 609,
-    name: "Sony Alpha ILCE-7RM3A Full-Frame 42.4MP Mirrorless",
+  {
+    id: 108,
+    name: "Sony Alpha Mirrorless Camera",
     price: 120990,
-    image: "https://m.media-amazon.com/images/I/71VnF6UiESL._SL1500_.jpg",
+    image:
+      "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=800&q=80",
     description:
-      "Lightweight and fast, perfect for students and cloud-based work.",
+      "Capture detailed photographs and creative shots with a dedicated camera.",
     category: "Camera",
   },
   {
-    id: 602,
-    name: "ipad M4 white",
+    id: 109,
+    name: "iPad M4 Silver",
     price: 54990,
-    image: "https://m.media-amazon.com/images/I/719uQ7BLfrL._SX679_.jpg",
+    image:
+      "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=800&q=80",
     description:
-      "Lightweight and fast, perfect for students and cloud-based work.",
+      "A versatile tablet for studying, reading, drawing, and entertainment.",
     category: "Tablet",
   },
   {
-    id: 603,
-    name: "ipad M4 gold",
+    id: 110,
+    name: "iPad M4 Gold",
     price: 54990,
-    image: "https://m.media-amazon.com/images/I/719oEHipgqL._SL1500_.jpg",
+    image:
+      "https://images.unsplash.com/photo-1561154464-82e9adf32764?w=800&q=80",
     description:
-      "Lightweight and fast, perfect for students and cloud-based work.",
+      "A portable tablet for productivity, media, and everyday tasks.",
     category: "Tablet",
   },
   {
-    id: 604,
-    name: "Lenovo Tab 9",
-    price: 35990,
-    image: "https://m.media-amazon.com/images/I/71PwporL-mL._SL1500_.jpg",
-    description:
-      "Lightweight and fast, perfect for students and cloud-based work.",
-    category: "Tablet",
-  },
-   {
-    id: 610,
-    name: "Sony Alpha ILCE-7M3K Full-Frame 24.2MP Mirrorless Digital SLR Camera",
-    price: 120990,
-    image: "https://m.media-amazon.com/images/I/71j3bPnm+UL._SL1500_.jpg",
-    description:
-      "Lightweight and fast, perfect for students and cloud-based work.",
-    category: "Camera",
-  },
-  {
-    id: 605,
-    name: "Apple ipad Go Lite",
+    id: 111,
+    name: "Lenovo Android Tablet",
     price: 35990,
     image:
-      "https://m.media-amazon.com/images/I/61kV643xjIL._SL1500_.jpghttps://m.media-amazon.com/images/I/81LskAU5h1L._SX679_.jpg",
+      "https://images.unsplash.com/photo-1589739900243-4b52cd9dd8df?w=800&q=80",
     description:
-      "Lightweight and fast, perfect for students and cloud-based work.",
+      "A convenient tablet for browsing, video streaming, and learning.",
     category: "Tablet",
   },
   {
-    id: 606,
-    name: "Canon E0S - 200",
-    price: 60990,
-    image: "https://m.media-amazon.com/images/I/81LskAU5h1L._SX679_.jpg",
+    id: 112,
+    name: "Apple iPad",
+    price: 35990,
+    image:
+      "https://images.unsplash.com/photo-1561336313-0bd5e0b27ec8?w=800&q=80",
     description:
-      "Lightweight and fast, perfect for students and cloud-based work.",
+      "A compact tablet for reading, browsing, and staying productive.",
+    category: "Tablet",
+  },
+  {
+    id: 113,
+    name: "Canon DSLR Camera",
+    price: 60990,
+    image:
+      "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=800&q=80",
+    description:
+      "Explore photography with a dedicated camera for creative projects.",
     category: "Camera",
   },
   {
-    id: 607,
-    name: "Nikon Mirroless",
+    id: 114,
+    name: "Nikon Mirrorless Camera",
     price: 90990,
-    image: "https://m.media-amazon.com/images/I/51AbWisvJfL._SX679_.jpg",
+    image:
+      "https://images.unsplash.com/photo-1510127034890-ba27508e9f1c?w=800&q=80",
     description:
-      "Lightweight and fast, perfect for students and cloud-based work.",
+      "A camera for capturing travel, portraits, and memorable moments.",
     category: "Camera",
   },
-    {
-    id: 608,
-    name: "HP Pavilion x360, 13th Gen Intel Core i5-1335U (16GB DDR4, 512GB SSD) Black",
+  {
+    id: 115,
+    name: "HP Pavilion x360",
     price: 69990,
-    image: "https://m.media-amazon.com/images/I/618zAXbM4uL._SL1500_.jpg",
+    image:
+      "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=800&q=80",
     description:
-      "The ultimate smartphone experience with a 108MP camera and all-day battery life.",
+      "A flexible laptop for multitasking, study, and everyday productivity.",
     category: "Laptop",
-  }, 
-
+  },
+  {
+    id: 116,
+    name: "Premium Android Phone",
+    price: 45990,
+    image:
+      "https://images.unsplash.com/photo-1605236453806-6ff36851218e?w=800&q=80",
+    description:
+      "A modern phone with a sleek appearance for daily digital tasks.",
+    category: "Phone",
+  },
 ];

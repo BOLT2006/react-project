@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 import { Home, ShoppingCart } from "lucide-react";
-import useCart from "../context/CartContext";
+import { useCart } from "../context/CartContext";
 const Navbar = () => {
   return (
     <>
