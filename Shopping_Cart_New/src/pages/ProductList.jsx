@@ -5,6 +5,7 @@ const ProductList = () => {
   return (
     <>
     <SearchFilter/>
+    <CategoryFilter/>
     </>
   )
 }
